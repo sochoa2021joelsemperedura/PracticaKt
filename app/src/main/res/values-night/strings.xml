@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stEscribeTuNombre">Escribe tu nombre</string>
+    <string name="stMiNombre">Joel Sempere Durá</string>
+    <string name="stAceptar">Aceptar</string>
+    <string name="stDimeLaHora">Dime la hora</string>
+    <string name="stSaludo">Hola</string>
+</resources>
