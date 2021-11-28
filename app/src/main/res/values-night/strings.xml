@@ -5,4 +5,6 @@
     <string name="stAceptar">Aceptar</string>
     <string name="stDimeLaHora">Dime la hora</string>
     <string name="stSaludo">Hola</string>
+    <string name="stFormatoHora">HH:mm:ss</string>
+    <string name="stFormateada">La hora a la que has pulsado el boton es %1$s y mi nombre es %2$s </string>
 </resources>

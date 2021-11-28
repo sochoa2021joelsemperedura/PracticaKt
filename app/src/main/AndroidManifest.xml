@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica1K">
         <activity
+            android:name=".HoraActivity"
+            android:exported="true" />
+        <activity
             android:name=".SaludoActivity"
             android:exported="true" />
         <activity

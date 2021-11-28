@@ -3,15 +3,16 @@ package com.example.practica1k
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import com.example.practica1k.SaludoActivity.Constantes.EXTRA_NOMBRE
+import com.example.practica1k.SaludoActivity.ConstanteSaludo.EXTRA_NOMBRE
 
 class SaludoActivity : AppCompatActivity() {
     //Atributos
     lateinit var tvMensaje : TextView
 
-    object Constantes {
+    object ConstanteSaludo {
         // Constante que guardara el nombre del usuario a saludar
         const val EXTRA_NOMBRE = "SaludoActivity.NOMBRE"
+
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,4 +30,5 @@ class SaludoActivity : AppCompatActivity() {
     fun iniciaViews(){
         tvMensaje = findViewById(R.id.tvMensaje)
     }
+
 }
